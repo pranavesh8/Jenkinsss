@@ -82,26 +82,22 @@ xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/x
 <build>
 <plugins>
   
-   <plugin>
-    <groupId>org.owasp</groupId>
-    <artifactId>dependency-check-maven</artifactId>
-    <version>6.0.1</version>
-    <configuration>
-        <cveUrlModified>https://www.lhorn.de/nist/nvdcve-1.1-2019.json.gz</cveUrlModified>
-        <cveUrlBase>https://www.lhorn.de/nist/nvdcve-1.1-2019.json.gz</cveUrlBase>
-    </configuration>
-    <executions>
-        <execution>
-            <goals>
-                <goal>check</goal>
-            </goals>
-            <configuration>
-                <format>xml</format>
-            </configuration>
-        </execution>
-    </executions>
-</plugin>
+  
 
+  
+  
+   <plugin>
+                <groupId>org.owasp</groupId>
+                <artifactId>dependency-check-maven</artifactId>
+                <version>3.3.3</version>
+                <executions>
+                    <execution>
+                        <goals>
+                            <goal>check</goal>
+                        </goals>
+                    </execution>
+                </executions>
+            </plugin>
   
   
 <plugin>
