@@ -86,7 +86,8 @@ xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/x
 <plugin>
    <groupId>org.owasp</groupId>
    <artifactId>dependency-check-maven</artifactId>
-   <packaging>war</packaging>
+ <version<3.8.6</version>
+
    <executions>
       <execution>
          <goals>
