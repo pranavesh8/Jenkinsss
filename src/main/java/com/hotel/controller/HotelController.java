@@ -26,7 +26,7 @@ import com.hotel.model.BookingDetails;
 import com.hotel.seviceImpl.HotelSericeImpl;
 
 @RestController
-@RequestMapping("/url")
+//@RequestMapping("/url")
 public class HotelController {
 	
 	@Autowired
